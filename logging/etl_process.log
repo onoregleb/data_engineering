@@ -1,0 +1,150 @@
+2024-12-26 13:05:03.455 | INFO     | save_to_db:create_database:14 - Создание базы данных и таблицы: vacancies.db
+2024-12-26 13:05:03.455 | INFO     | save_to_db:create_database:14 - Создание базы данных и таблицы: vacancies.db
+2024-12-26 13:05:03.455 | INFO     | save_to_db:create_database:14 - Создание базы данных и таблицы: vacancies.db
+2024-12-26 13:05:03.464 | INFO     | save_to_db:create_database:41 - База данных и таблица успешно созданы.
+2024-12-26 13:05:03.464 | INFO     | save_to_db:create_database:41 - База данных и таблица успешно созданы.
+2024-12-26 13:05:03.464 | INFO     | save_to_db:create_database:41 - База данных и таблица успешно созданы.
+2024-12-26 13:05:03.500 | INFO     | data_api:fetch_vacancies:16 - Запуск сбора вакансий с параметрами: {'text': 'Data Scientist OR Machine Learning OR Аналитик данных OR Искусственный интеллект OR Data Engineer OR ML', 'area': 113, 'specialization': 1}
+2024-12-26 13:05:03.500 | INFO     | data_api:fetch_vacancies:16 - Запуск сбора вакансий с параметрами: {'text': 'Data Scientist OR Machine Learning OR Аналитик данных OR Искусственный интеллект OR Data Engineer OR ML', 'area': 113, 'specialization': 1}
+2024-12-26 13:05:03.500 | INFO     | data_api:fetch_vacancies:16 - Запуск сбора вакансий с параметрами: {'text': 'Data Scientist OR Machine Learning OR Аналитик данных OR Искусственный интеллект OR Data Engineer OR ML', 'area': 113, 'specialization': 1}
+2024-12-26 13:05:19.561 | INFO     | data_api:fetch_vacancies:30 - Обработано 5 страниц.
+2024-12-26 13:05:19.561 | INFO     | data_api:fetch_vacancies:30 - Обработано 5 страниц.
+2024-12-26 13:05:19.561 | INFO     | data_api:fetch_vacancies:30 - Обработано 5 страниц.
+2024-12-26 13:05:33.138 | INFO     | data_api:fetch_vacancies:30 - Обработано 10 страниц.
+2024-12-26 13:05:33.138 | INFO     | data_api:fetch_vacancies:30 - Обработано 10 страниц.
+2024-12-26 13:05:33.138 | INFO     | data_api:fetch_vacancies:30 - Обработано 10 страниц.
+2024-12-26 13:05:47.028 | INFO     | data_api:fetch_vacancies:30 - Обработано 15 страниц.
+2024-12-26 13:05:47.028 | INFO     | data_api:fetch_vacancies:30 - Обработано 15 страниц.
+2024-12-26 13:05:47.028 | INFO     | data_api:fetch_vacancies:30 - Обработано 15 страниц.
+2024-12-26 13:06:00.790 | INFO     | data_api:fetch_vacancies:30 - Обработано 20 страниц.
+2024-12-26 13:06:00.790 | INFO     | data_api:fetch_vacancies:30 - Обработано 20 страниц.
+2024-12-26 13:06:00.790 | INFO     | data_api:fetch_vacancies:30 - Обработано 20 страниц.
+2024-12-26 13:06:01.792 | INFO     | data_api:fetch_vacancies:44 - Всего вакансий собрано: 2000.
+2024-12-26 13:06:01.792 | INFO     | data_api:fetch_vacancies:44 - Всего вакансий собрано: 2000.
+2024-12-26 13:06:01.792 | INFO     | data_api:fetch_vacancies:44 - Всего вакансий собрано: 2000.
+2024-12-26 13:06:04.457 | INFO     | save_to_db:save_to_sqlite:52 - Сохранение 2000 вакансий в базу данных: vacancies.db
+2024-12-26 13:06:04.457 | INFO     | save_to_db:save_to_sqlite:52 - Сохранение 2000 вакансий в базу данных: vacancies.db
+2024-12-26 13:06:04.457 | INFO     | save_to_db:save_to_sqlite:52 - Сохранение 2000 вакансий в базу данных: vacancies.db
+2024-12-26 13:06:04.491 | INFO     | save_to_db:save_to_sqlite:100 - Успешно сохранено 2000 вакансий в базу данных.
+2024-12-26 13:06:04.491 | INFO     | save_to_db:save_to_sqlite:100 - Успешно сохранено 2000 вакансий в базу данных.
+2024-12-26 13:06:04.491 | INFO     | save_to_db:save_to_sqlite:100 - Успешно сохранено 2000 вакансий в базу данных.
+2024-12-26 13:06:04.519 | INFO     | data_processing:process_data:68 - Начинаем обработку данных из базы данных: vacancies.db
+2024-12-26 13:06:04.519 | INFO     | data_processing:process_data:68 - Начинаем обработку данных из базы данных: vacancies.db
+2024-12-26 13:06:04.519 | INFO     | data_processing:process_data:68 - Начинаем обработку данных из базы данных: vacancies.db
+2024-12-26 13:06:04.519 | INFO     | data_processing:load_data:18 - Загрузка данных из базы данных: vacancies.db
+2024-12-26 13:06:04.519 | INFO     | data_processing:load_data:18 - Загрузка данных из базы данных: vacancies.db
+2024-12-26 13:06:04.519 | INFO     | data_processing:load_data:18 - Загрузка данных из базы данных: vacancies.db
+2024-12-26 13:06:04.538 | INFO     | data_processing:load_data:23 - Данные загружены. Размер данных: (1992, 15)
+2024-12-26 13:06:04.538 | INFO     | data_processing:load_data:23 - Данные загружены. Размер данных: (1992, 15)
+2024-12-26 13:06:04.538 | INFO     | data_processing:load_data:23 - Данные загружены. Размер данных: (1992, 15)
+2024-12-26 13:06:04.538 | INFO     | data_processing:process_data:74 - Преобразуем столбец 'published_at' в тип datetime.
+2024-12-26 13:06:04.538 | INFO     | data_processing:process_data:74 - Преобразуем столбец 'published_at' в тип datetime.
+2024-12-26 13:06:04.538 | INFO     | data_processing:process_data:74 - Преобразуем столбец 'published_at' в тип datetime.
+2024-12-26 13:06:04.553 | INFO     | data_processing:process_data:79 - Удаляем строки с пропущенными значениями в столбцах 'snippet_requirement' и 'snippet_responsibility'.
+2024-12-26 13:06:04.553 | INFO     | data_processing:process_data:79 - Удаляем строки с пропущенными значениями в столбцах 'snippet_requirement' и 'snippet_responsibility'.
+2024-12-26 13:06:04.553 | INFO     | data_processing:process_data:79 - Удаляем строки с пропущенными значениями в столбцах 'snippet_requirement' и 'snippet_responsibility'.
+2024-12-26 13:06:04.560 | INFO     | data_processing:process_data:85 - Очищаем текстовые столбцы.
+2024-12-26 13:06:04.560 | INFO     | data_processing:process_data:85 - Очищаем текстовые столбцы.
+2024-12-26 13:06:04.560 | INFO     | data_processing:process_data:85 - Очищаем текстовые столбцы.
+2024-12-26 13:06:04.571 | INFO     | data_processing:process_data:90 - Переводим зарплату в валюту RUR.
+2024-12-26 13:06:04.571 | INFO     | data_processing:process_data:90 - Переводим зарплату в валюту RUR.
+2024-12-26 13:06:04.571 | INFO     | data_processing:process_data:90 - Переводим зарплату в валюту RUR.
+2024-12-26 13:06:04.575 | DEBUG    | data_processing:get_exchange_rate:29 - Получение курса обмена для EUR на 25/12/2024
+2024-12-26 13:06:04.575 | DEBUG    | data_processing:get_exchange_rate:29 - Получение курса обмена для EUR на 25/12/2024
+2024-12-26 13:06:04.575 | DEBUG    | data_processing:get_exchange_rate:29 - Получение курса обмена для EUR на 25/12/2024
+2024-12-26 13:06:05.746 | DEBUG    | data_processing:get_exchange_rate:37 - Курс для EUR на 25/12/2024: 104.231
+2024-12-26 13:06:05.746 | DEBUG    | data_processing:get_exchange_rate:37 - Курс для EUR на 25/12/2024: 104.231
+2024-12-26 13:06:05.746 | DEBUG    | data_processing:get_exchange_rate:37 - Курс для EUR на 25/12/2024: 104.231
+2024-12-26 13:06:05.753 | DEBUG    | data_processing:get_exchange_rate:29 - Получение курса обмена для USD на 23/12/2024
+2024-12-26 13:06:05.753 | DEBUG    | data_processing:get_exchange_rate:29 - Получение курса обмена для USD на 23/12/2024
+2024-12-26 13:06:05.753 | DEBUG    | data_processing:get_exchange_rate:29 - Получение курса обмена для USD на 23/12/2024
+2024-12-26 13:06:06.672 | DEBUG    | data_processing:get_exchange_rate:37 - Курс для USD на 23/12/2024: 102.3438
+2024-12-26 13:06:06.672 | DEBUG    | data_processing:get_exchange_rate:37 - Курс для USD на 23/12/2024: 102.3438
+2024-12-26 13:06:06.672 | DEBUG    | data_processing:get_exchange_rate:37 - Курс для USD на 23/12/2024: 102.3438
+2024-12-26 13:06:06.674 | DEBUG    | data_processing:get_exchange_rate:29 - Получение курса обмена для USD на 25/12/2024
+2024-12-26 13:06:06.674 | DEBUG    | data_processing:get_exchange_rate:29 - Получение курса обмена для USD на 25/12/2024
+2024-12-26 13:06:06.674 | DEBUG    | data_processing:get_exchange_rate:29 - Получение курса обмена для USD на 25/12/2024
+2024-12-26 13:06:07.572 | DEBUG    | data_processing:get_exchange_rate:37 - Курс для USD на 25/12/2024: 99.8729
+2024-12-26 13:06:07.572 | DEBUG    | data_processing:get_exchange_rate:37 - Курс для USD на 25/12/2024: 99.8729
+2024-12-26 13:06:07.572 | DEBUG    | data_processing:get_exchange_rate:37 - Курс для USD на 25/12/2024: 99.8729
+2024-12-26 13:06:07.579 | DEBUG    | data_processing:get_exchange_rate:29 - Получение курса обмена для USD на 24/12/2024
+2024-12-26 13:06:07.579 | DEBUG    | data_processing:get_exchange_rate:29 - Получение курса обмена для USD на 24/12/2024
+2024-12-26 13:06:07.579 | DEBUG    | data_processing:get_exchange_rate:29 - Получение курса обмена для USD на 24/12/2024
+2024-12-26 13:06:08.487 | DEBUG    | data_processing:get_exchange_rate:37 - Курс для USD на 24/12/2024: 101.6143
+2024-12-26 13:06:08.487 | DEBUG    | data_processing:get_exchange_rate:37 - Курс для USD на 24/12/2024: 101.6143
+2024-12-26 13:06:08.487 | DEBUG    | data_processing:get_exchange_rate:37 - Курс для USD на 24/12/2024: 101.6143
+2024-12-26 13:06:08.491 | DEBUG    | data_processing:get_exchange_rate:29 - Получение курса обмена для USD на 24/12/2024
+2024-12-26 13:06:08.491 | DEBUG    | data_processing:get_exchange_rate:29 - Получение курса обмена для USD на 24/12/2024
+2024-12-26 13:06:08.491 | DEBUG    | data_processing:get_exchange_rate:29 - Получение курса обмена для USD на 24/12/2024
+2024-12-26 13:06:09.390 | DEBUG    | data_processing:get_exchange_rate:37 - Курс для USD на 24/12/2024: 101.6143
+2024-12-26 13:06:09.390 | DEBUG    | data_processing:get_exchange_rate:37 - Курс для USD на 24/12/2024: 101.6143
+2024-12-26 13:06:09.390 | DEBUG    | data_processing:get_exchange_rate:37 - Курс для USD на 24/12/2024: 101.6143
+2024-12-26 13:06:09.397 | DEBUG    | data_processing:get_exchange_rate:29 - Получение курса обмена для USD на 24/12/2024
+2024-12-26 13:06:09.397 | DEBUG    | data_processing:get_exchange_rate:29 - Получение курса обмена для USD на 24/12/2024
+2024-12-26 13:06:09.397 | DEBUG    | data_processing:get_exchange_rate:29 - Получение курса обмена для USD на 24/12/2024
+2024-12-26 13:06:10.288 | DEBUG    | data_processing:get_exchange_rate:37 - Курс для USD на 24/12/2024: 101.6143
+2024-12-26 13:06:10.288 | DEBUG    | data_processing:get_exchange_rate:37 - Курс для USD на 24/12/2024: 101.6143
+2024-12-26 13:06:10.288 | DEBUG    | data_processing:get_exchange_rate:37 - Курс для USD на 24/12/2024: 101.6143
+2024-12-26 13:06:10.296 | DEBUG    | data_processing:get_exchange_rate:29 - Получение курса обмена для USD на 24/12/2024
+2024-12-26 13:06:10.296 | DEBUG    | data_processing:get_exchange_rate:29 - Получение курса обмена для USD на 24/12/2024
+2024-12-26 13:06:10.296 | DEBUG    | data_processing:get_exchange_rate:29 - Получение курса обмена для USD на 24/12/2024
+2024-12-26 13:06:11.464 | DEBUG    | data_processing:get_exchange_rate:37 - Курс для USD на 24/12/2024: 101.6143
+2024-12-26 13:06:11.464 | DEBUG    | data_processing:get_exchange_rate:37 - Курс для USD на 24/12/2024: 101.6143
+2024-12-26 13:06:11.464 | DEBUG    | data_processing:get_exchange_rate:37 - Курс для USD на 24/12/2024: 101.6143
+2024-12-26 13:06:11.466 | DEBUG    | data_processing:get_exchange_rate:29 - Получение курса обмена для USD на 24/12/2024
+2024-12-26 13:06:11.466 | DEBUG    | data_processing:get_exchange_rate:29 - Получение курса обмена для USD на 24/12/2024
+2024-12-26 13:06:11.466 | DEBUG    | data_processing:get_exchange_rate:29 - Получение курса обмена для USD на 24/12/2024
+2024-12-26 13:06:12.376 | DEBUG    | data_processing:get_exchange_rate:37 - Курс для USD на 24/12/2024: 101.6143
+2024-12-26 13:06:12.376 | DEBUG    | data_processing:get_exchange_rate:37 - Курс для USD на 24/12/2024: 101.6143
+2024-12-26 13:06:12.376 | DEBUG    | data_processing:get_exchange_rate:37 - Курс для USD на 24/12/2024: 101.6143
+2024-12-26 13:06:12.381 | DEBUG    | data_processing:get_exchange_rate:29 - Получение курса обмена для KZT на 05/12/2024
+2024-12-26 13:06:12.381 | DEBUG    | data_processing:get_exchange_rate:29 - Получение курса обмена для KZT на 05/12/2024
+2024-12-26 13:06:12.381 | DEBUG    | data_processing:get_exchange_rate:29 - Получение курса обмена для KZT на 05/12/2024
+2024-12-26 13:06:13.300 | DEBUG    | data_processing:get_exchange_rate:37 - Курс для KZT на 05/12/2024: 0.199239
+2024-12-26 13:06:13.300 | DEBUG    | data_processing:get_exchange_rate:37 - Курс для KZT на 05/12/2024: 0.199239
+2024-12-26 13:06:13.300 | DEBUG    | data_processing:get_exchange_rate:37 - Курс для KZT на 05/12/2024: 0.199239
+2024-12-26 13:06:13.308 | DEBUG    | data_processing:get_exchange_rate:29 - Получение курса обмена для EUR на 23/12/2024
+2024-12-26 13:06:13.308 | DEBUG    | data_processing:get_exchange_rate:29 - Получение курса обмена для EUR на 23/12/2024
+2024-12-26 13:06:13.308 | DEBUG    | data_processing:get_exchange_rate:29 - Получение курса обмена для EUR на 23/12/2024
+2024-12-26 13:06:14.233 | DEBUG    | data_processing:get_exchange_rate:37 - Курс для EUR на 23/12/2024: 106.5444
+2024-12-26 13:06:14.233 | DEBUG    | data_processing:get_exchange_rate:37 - Курс для EUR на 23/12/2024: 106.5444
+2024-12-26 13:06:14.233 | DEBUG    | data_processing:get_exchange_rate:37 - Курс для EUR на 23/12/2024: 106.5444
+2024-12-26 13:06:14.234 | DEBUG    | data_processing:get_exchange_rate:29 - Получение курса обмена для EUR на 23/12/2024
+2024-12-26 13:06:14.234 | DEBUG    | data_processing:get_exchange_rate:29 - Получение курса обмена для EUR на 23/12/2024
+2024-12-26 13:06:14.234 | DEBUG    | data_processing:get_exchange_rate:29 - Получение курса обмена для EUR на 23/12/2024
+2024-12-26 13:06:15.143 | DEBUG    | data_processing:get_exchange_rate:37 - Курс для EUR на 23/12/2024: 106.5444
+2024-12-26 13:06:15.143 | DEBUG    | data_processing:get_exchange_rate:37 - Курс для EUR на 23/12/2024: 106.5444
+2024-12-26 13:06:15.143 | DEBUG    | data_processing:get_exchange_rate:37 - Курс для EUR на 23/12/2024: 106.5444
+2024-12-26 13:06:15.171 | INFO     | data_processing:process_data:94 - Обработанные данные:
+           id  ...          experience
+14  109640670  ...       От 3 до 6 лет
+18  107866235  ...  От 1 года до 3 лет
+20  114911567  ...       От 3 до 6 лет
+29  112965264  ...  От 1 года до 3 лет
+30  114184493  ...       От 3 до 6 лет
+
+[5 rows x 15 columns]
+2024-12-26 13:06:15.171 | INFO     | data_processing:process_data:94 - Обработанные данные:
+           id  ...          experience
+14  109640670  ...       От 3 до 6 лет
+18  107866235  ...  От 1 года до 3 лет
+20  114911567  ...       От 3 до 6 лет
+29  112965264  ...  От 1 года до 3 лет
+30  114184493  ...       От 3 до 6 лет
+
+[5 rows x 15 columns]
+2024-12-26 13:06:15.171 | INFO     | data_processing:process_data:94 - Обработанные данные:
+           id  ...          experience
+14  109640670  ...       От 3 до 6 лет
+18  107866235  ...  От 1 года до 3 лет
+20  114911567  ...       От 3 до 6 лет
+29  112965264  ...  От 1 года до 3 лет
+30  114184493  ...       От 3 до 6 лет
+
+[5 rows x 15 columns]
+2024-12-26 13:06:15.171 | INFO     | data_processing:process_data:97 - Обновляем данные в базе данных.
+2024-12-26 13:06:15.171 | INFO     | data_processing:process_data:97 - Обновляем данные в базе данных.
+2024-12-26 13:06:15.171 | INFO     | data_processing:process_data:97 - Обновляем данные в базе данных.
+2024-12-26 13:06:15.198 | INFO     | data_processing:process_data:102 - Данные обработаны и база данных обновлена.
+2024-12-26 13:06:15.198 | INFO     | data_processing:process_data:102 - Данные обработаны и база данных обновлена.
+2024-12-26 13:06:15.198 | INFO     | data_processing:process_data:102 - Данные обработаны и база данных обновлена.
