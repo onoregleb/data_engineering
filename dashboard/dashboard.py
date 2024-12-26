@@ -2,9 +2,10 @@ import sqlite3
 import pandas as pd
 import streamlit as st
 import plotly.express as px
+import os
 
 # Подключение к базе данных
-DB_PATH = r"C:\Users\Gleb Onore\Desktop\data_eng\vacancies.db"
+DB_PATH = os.path.join(os.getcwd(), 'vacancies.db')
 
 
 @st.cache_data
