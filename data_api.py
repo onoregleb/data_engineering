@@ -27,16 +27,3 @@ def fetch_vacancies(params, max_pages=20, per_page=100):
 
     print(f"Всего вакансий собрано: {len(all_vacancies)}.")
     return all_vacancies
-
-
-def main():
-    params = {
-        "text": "Data Scientist OR Machine Learning OR Аналитик данных OR Искусственный интеллект OR Data Engineer OR ML",
-        "area": 113,  # Россия
-        "specialization": 1,  # IT
-    }
-    print("Запуск сбора вакансий...")
-
-
-if __name__ == "__main__":
-    main()
