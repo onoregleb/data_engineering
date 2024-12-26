@@ -2,9 +2,9 @@ import pandas as pd
 import sqlite3
 import requests
 from bs4 import BeautifulSoup
+from loguru import logger
 import warnings
 import re
-from loguru import logger
 
 warnings.filterwarnings("ignore")
 
