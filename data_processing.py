@@ -6,10 +6,8 @@ import warnings
 import re
 from loguru import logger
 
-# Настройки
 warnings.filterwarnings("ignore")
 
-# Настройка логирования
 logger.add("logging/etl_process.log", rotation="1 week", retention="10 days")  # Логи в файл
 
 
