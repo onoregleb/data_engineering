@@ -82,10 +82,14 @@ if st.checkbox("Показать среднюю зарплату по регио
         color_continuous_scale="Reds"
     )
 
-    # Инвертируем ось Y
     fig.update_layout(
         yaxis=dict(
-            categoryorder="total ascending"  # Инвертируем порядок
+            categoryorder="total ascending"
+        ),
+        xaxis=dict(
+            showticklabels=False,
+            showgrid=False,
+            title=None
         )
     )
 
@@ -113,14 +117,22 @@ if st.checkbox("Показать популярные профессиональ
         labels={"count": "Количество вакансий", "professional_roles": "Роль"},
         color="salary_avg",
         color_continuous_scale="Oranges",
-        hover_data={"salary_avg": True, "count": True}  # Показываем среднюю зарплату при наведении
+        hover_data={"salary_avg": True, "count": True}
     )
 
-    # Инвертируем ось Y для лучшего отображения
     fig.update_layout(
         yaxis=dict(
-            categoryorder="total ascending"  # Инвертируем порядок
+            categoryorder="total ascending"
+        ),
+        xaxis=dict(
+            showticklabels=False,
+            showgrid=False,
+            title=None
+        ),
+        coloraxis_colorbar=dict(
+            title="Средняя з/п"
         )
     )
+
     st.plotly_chart(fig)
 
