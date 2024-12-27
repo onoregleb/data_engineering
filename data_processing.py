@@ -32,7 +32,6 @@ def get_exchange_rate(date, currency_code):
         for valute in soup.find_all("Valute"):
             if valute.CharCode.text == currency_code:
                 exchange_rate = float(valute.Value.text.replace(",", ".")) / int(valute.Nominal.text)
-                logger.debug(f"Курс для {currency_code} на {date}: {exchange_rate}")
                 return exchange_rate
     logger.warning(f"Курс для {currency_code} на {date} не найден.")
     return 1  # Возвращаем 1, если курс не найден (например, для RUR или ошибок запроса)
