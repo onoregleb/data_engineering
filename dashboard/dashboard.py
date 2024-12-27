@@ -4,8 +4,8 @@ import streamlit as st
 import plotly.express as px
 import os
 
-# Подключение к базе данных
-DB_PATH = os.path.join(os.getcwd(), 'vacancies.db')
+
+DB_PATH = os.path.join(os.getcwd(), '..', 'vacancies.db')
 
 
 @st.cache_data
